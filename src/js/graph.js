@@ -1,7 +1,6 @@
 import { astar } from './astar.js';
 
-function Graph(gridIn, options) {
-    options = options || {};
+function Graph(gridIn) {
     this.nodes = [];
     this.grid = [];
     for (var x = 0; x < gridIn.length; x++) {
@@ -69,7 +68,7 @@ function GridNode(x, y, weight) {
 }
 
 GridNode.prototype = {
-    getCost: function (fromNeighbor) {
+    getCost: function () {
         return this.weight;
     },
     isWall: function () {
