@@ -19,8 +19,10 @@
 }
 
 .cell{
-    width: 20px;
-    height: 20px;
+    text-align: center; 
+    line-height: 0px;
+    width: 18px;
+    height: 18px;
     outline: 1px solid #ccc;
 }
 
@@ -56,4 +58,12 @@
         transform: scale(1);
         background-color: gray;
     }
+}
+
+.marker {
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block; 
+    vertical-align: middle; 
+    line-height: normal;
 }
