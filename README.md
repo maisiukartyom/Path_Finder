@@ -1,8 +1,10 @@
-# React + Vite
+# Path finding visualization using A* algorithm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to test?
+1. You can move S (start) and E (end) positions on the grid by switching checkboxes.
+2. If you haven't checked any checkbox you can place an obstacle by simply clicking on the desired cell.
+3. Once you've initialized the desired grid click "Visualize path" to see the path and execution time.
+4. You can also change grid size using drop-down menu.
+5. Click "Reset field" to reset all the changes and found paths.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**HAPPY TESTING!** 😁 
